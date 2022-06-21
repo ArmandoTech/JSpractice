@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discounts</title>
+</head>
+<body>
+    <header>
+        <h1>Percentages and Discounts</h1>
+        <p>This is to calculate porcentage of discount in the price of items</p>
+    </header>
+
+    <section>
+        <h2>Calculate the price you have to pay for your items</h2>
+        <form action="">
+            <label for="ItemPrice">Enter the price of your item</label>
+            <input type="number" placeholder="Price" id="ItemPrice">
+
+            <label for="Discount">Enter the discount of the item</label>
+            <input type="number" placeholder="Discount" id="Discount">
+
+            <button type="button" onclick="calculateDiscount()">Calculate the item with discount</button>
+
+            <p id="priceP"></p>
+        </form>
+    </section>
+
+    <script src="./discounts.js"></script>
+</body>
+</html>
