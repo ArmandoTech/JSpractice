@@ -18,3 +18,11 @@
 3. Create functions.
 4. Integrate JS on Html.
 
+## Workshop 3: average, median and mode
+
+
+1. Define the formulas.
+2. Implement the formulas on JS.
+3. Create functions.
+4. Integrate JS on Html.
+
