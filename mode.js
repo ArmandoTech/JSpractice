@@ -17,3 +17,4 @@ const listArray= Object.entries(countList).sort(
 );
 
 mode= listArray[listArray.length - 1];
+console.log(mode)
