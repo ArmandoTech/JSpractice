@@ -50,3 +50,24 @@ let listOfNames= names.map(function(element){
 })
 //ES6 ARROW FUNCTIONS
 let listOfNames2= names.map(element=> console.log(element.name3))
+
+const square= num => num*num
+console.log(square(2))
+
+
+//Case 7
+//PROMISES
+const helloPromise= () => {
+    return new Promise((resolve, reject) => {
+        if (true){
+            resolve('Here is the resolve')
+        } else{
+            reject('Here is the reject')
+        }
+    })
+} 
+
+helloPromise()
+    .then(response => console.log(response))  
+    .catch(err => console.log(err))
+

@@ -26,3 +26,7 @@
 3. Create functions.
 4. Integrate JS on Html.
 
+## Additional content
+
+
+Practicing some JavaScript and implementing ES6+ to the code. 
